@@ -21,8 +21,6 @@ void AImGuiActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	ImGui::Begin("Hello My Friends", nullptr, ImGuiWindowFlags_AlwaysAutoResize);//ImGuiWindowFlags_AlwaysAutoResize will remove the ability to manually resize the window just a heads up
-	ImGui::Text("Hello World!");
-	ImGui::End();
+	ImGui::ShowDemoWindow();
 }
 
